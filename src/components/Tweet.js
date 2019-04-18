@@ -25,6 +25,7 @@ class Tweet extends Component {
 
   render() {
     const { tweet } = this.props;
+    console.log(tweet);
 
     if (tweet === null) {
       return <p>This tweet doesn't exist</p>;
